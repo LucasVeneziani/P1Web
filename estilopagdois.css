@@ -255,7 +255,7 @@ background-color: var(--corMainPrincipal);
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr;
-height: fit-content;
+height: 1500px;
 }
 .asideEsquerda{
     height: min-content;
@@ -274,13 +274,16 @@ height: fit-content;
     background-position: center;
 }
 .cardsEsquerda1{
-    background-image: url(/Img/1.jpg);
+    background-image: url(Img/html5.png);
 }
 .cardsEsquerda2{
-    background-image: url(/Img/2.jpeg);
+    background-image: url(/Img/css.png);
 }
 .cardsEsquerda3{
-    background-image: url(/Img/3.jpg);
+    background-image: url(/Img/javascript.webp);
+}
+.cardsEsquerda4{
+    background-image: url(/Img/Frontend.png);
 }
 
 .asideDireita{
@@ -345,18 +348,27 @@ figure{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     padding: 20px;
+    background-color: var(--corMainPrincipal);
 }
 .figCards{
     width: 80%;
     height: 80%;
-    background-color: aliceblue;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.figCards h1{
- text-align: center;
+.figCards img{
+ width: 100px;
+ height: 100px;
+ justify-self: center;
+ align-self: center;
+ border-radius: 200px;
+ background-size: contain;
+}
+.figCard2 img{
+width: 200px;
+height: 200px;
 }
 .figCards ul{
     display: flex;
@@ -364,6 +376,8 @@ figure{
     flex-direction: column;
     height: 100%;
     width: 100%;
+    list-style-type: none;
+    text-align: center;
 }
 .figCard1{
     justify-self: end;
@@ -472,6 +486,9 @@ footer .icones a img{
         "DCard1 DCard2"
         "DCard3 DCard4"
         "DCard5 DCard6";
+    }
+    main{
+        height: 2300px;
     }
 }
 @media(max-width: 800px){
@@ -607,10 +624,13 @@ footer .icones a img{
     .figCards{
         width: 100%;
         height: fit-content;
-        background-color: aliceblue;
         padding-bottom: 0px;
         margin-bottom: 0px;
     }
+    .figCard2 img{
+        width: 100px;
+        height: 100px;
+        }
 
     .figCard1{
         justify-self: normal;
