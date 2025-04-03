@@ -86,6 +86,7 @@ article{
 }
 .secao3{
     background-color: var(--corArticle2);
+    height: 100%;
 }
 #Mais{
     border: 20px;
@@ -304,11 +305,30 @@ footer div{
     display: flex;
     justify-content: center;
     gap: 20px;
+    grid-row: 0/1;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
-canvas{
+#footer1{
+    background-image: url(Img/facebook.png);
+}
+#footer2{
+    background-image: url(Img/whatsapp.png);
+}
+#footer3{
+    background-image: url(Img/instagram.png);
+}
+footer div a{
     width: 50px;
     height: 50px;
+}
+footer div a img{
+    width: inherit;
+    height: inherit;
+    
 }
 /*----------------------------------------------Media-------------------------------------*/
 
