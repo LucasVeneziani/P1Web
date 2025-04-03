@@ -203,13 +203,13 @@ grid-template-columns: 1fr 1fr;
     background-repeat: no-repeat;
     background-position: center;
 }
-#cardsEsquerda1{
+.cardsEsquerda1{
     background-image: url(/Img/1.jpg);
 }
-#cardsEsquerda2{
+.cardsEsquerda2{
     background-image: url(/Img/2.jpeg);
 }
-#cardsEsquerda3{
+.cardsEsquerda3{
     background-image: url(/Img/3.jpg);
 }
 
@@ -463,6 +463,17 @@ footer .icones a img{
     .diCards{
         border-radius: 0px;
         margin: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .diCards img{
+        grid-row: 1/2;
+    }
+    .diCards h2{
+        grid-row: 2/3;
+    }
+    .diCards p{
+        grid-row: 3/4;
     }
 
     .asideDireita{
