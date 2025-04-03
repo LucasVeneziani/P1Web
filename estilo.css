@@ -203,13 +203,13 @@ grid-template-columns: 1fr 1fr;
     background-repeat: no-repeat;
     background-position: center;
 }
-.cardsEsquerda1{
+#cardsEsquerda1{
     background-image: url(/Img/1.jpg);
 }
-.cardsEsquerda2{
+#cardsEsquerda2{
     background-image: url(/Img/2.jpeg);
 }
-.cardsEsquerda3{
+#cardsEsquerda3{
     background-image: url(/Img/3.jpg);
 }
 
