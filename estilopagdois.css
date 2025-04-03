@@ -169,13 +169,13 @@ nav .navicones{
     transition-duration: 1s;
 }
 #nav1{
-    background-image: url("Img/facebook.png");
+    background-image: url("img/facebook.png");
 }
 #nav2{
-    background-image: url("Img/whatsapp.png");
+    background-image: url("img/whatsapp.png");
 }
 #nav3{
-    background-image: url("Img/instagram.png");
+    background-image: url("img/instagram.png");
 }
 nav .navicones a{
     width: 50px;
@@ -274,16 +274,16 @@ height: 1500px;
     background-position: center;
 }
 .cardsEsquerda1{
-    background-image: url(Img/html5.png);
+    background-image: url("img/html5.png");
 }
 .cardsEsquerda2{
-    background-image: url(/Img/css.png);
+    background-image: url("img/css.png");
 }
 .cardsEsquerda3{
-    background-image: url(/Img/javascript.webp);
+    background-image: url("img/javascript.webp");
 }
 .cardsEsquerda4{
-    background-image: url(/Img/Frontend.png);
+    background-image: url("img/Frontend.png");
 }
 
 .asideDireita{
@@ -449,13 +449,13 @@ footer .contatos{
     transition-duration: 1s;
 }
 #footer1{
-    background-image: url("Img/facebook.png");
+    background-image: url("img/facebook.png");
 }
 #footer2{
-    background-image: url("Img/whatsapp.png");
+    background-image: url("img/whatsapp.png");
 }
 #footer3{
-    background-image: url("Img/instagram.png");
+    background-image: url("img/instagram.png");
 }
 footer .icones a{
     width: 50px;

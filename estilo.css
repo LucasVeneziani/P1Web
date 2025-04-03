@@ -204,13 +204,13 @@ grid-template-columns: 1fr 1fr;
     background-position: center;
 }
 .cardsEsquerda1{
-    background-image: url(/Img/1.jpg);
+    background-image: url("img/1.jpg");
 }
 .cardsEsquerda2{
-    background-image: url(/Img/2.jpeg);
+    background-image: url("img/2.jpeg");
 }
 .cardsEsquerda3{
-    background-image: url(/Img/3.jpg);
+    background-image: url("img/3.jpg");
 }
 
 .asideDireita{
@@ -372,13 +372,13 @@ footer .contatos{
     transition-duration: 1s;
 }
 #footer1{
-    background-image: url("Img/facebook.png");
+    background-image: url("img/facebook.png");
 }
 #footer2{
-    background-image: url("Img/whatsapp.png");
+    background-image: url("img/whatsapp.png");
 }
 #footer3{
-    background-image: url("Img/instagram.png");
+    background-image: url("img/instagram.png");
 }
 footer .icones a{
     width: 50px;
