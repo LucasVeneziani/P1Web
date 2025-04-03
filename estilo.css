@@ -108,9 +108,8 @@ nav{
     background-color: var(--cornav1);
     color: white;
     width: inherit;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 nav ul{
     display: flex;
@@ -119,25 +118,36 @@ nav ul{
     list-style: none;
     align-self: center;
     height: max-content;
-    padding-top: 30px;
+    height: 100%;
+    width: 100%;
+}
+nav ul{
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    
 }
 nav ul li{
-    height: fit-content;
-    width: fit-content;
+    width: 100%;
+    margin: 0px;
+    width: inherit;
+    background-color: var(--cornav3);
     justify-self: center;
-    margin: 10px;
-    border-radius: 20px;
+    border-radius: 0px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    display: flex;
     
 }
 nav ul li a{
- height: inherit;
- padding: 10px;
- border-radius: inherit;
- color: var(--corTexto1);
- width: inherit;
- text-decoration: none;
- list-style: none;
- background-color: var(--cornav3);
+    width: 100%;
+    padding: 40px 0px;
+    text-decoration: none;
+    color: var(--corTextowhite);
 }
 nav ul li a:hover{
     color: var(--corTextowhite);
@@ -146,14 +156,13 @@ nav ul li a:hover{
     transition-duration: 0.5s;
 }
 nav h2{
-    border-radius: 20px;
     background-color: var(--cornav2);
     width: fit-content;
     height: fit-content;
     text-align: center;
-    padding: 20px;
-    align-self: center;
-    justify-self: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
     /* justify-self: center;
     align-items: center; */
 }
@@ -262,8 +271,9 @@ footer{
 
     nav{
 
-        flex-direction: column;
-        padding-top: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 0px;
     }
     nav ul{
         width: 100%;
