@@ -256,15 +256,60 @@ grid-template-columns: 1fr 1fr;
     text-align: center;
 }
 
+
+
+/*---------------------------------------------Segunda-Parte--------------------------------*/
+
+figure{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+.figCards{
+    width: 80%;
+    height: 80%;
+    background-color: aliceblue;
+}
+.figCard1{
+    justify-self: end;
+    align-self: end;
+    margin-bottom: 40px;
+}
+.figCard2{
+    justify-self: center;
+    width: 100%;
+    height: 100%;
+}
+.figCard3{
+    justify-self: start;
+    align-self: end;
+    margin-bottom: 40px;
+}
+
+
 footer{
     height: 300px;
     background-color: var(--corArticle1);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     color: var(--corTextowhite);
+    justify-content: center;
+    align-items: center
 }
 
+footer div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
+canvas{
+    width: 50px;
+    height: 50px;
+}
 /*----------------------------------------------Media-------------------------------------*/
 
 @media (max-width: 600px) {
