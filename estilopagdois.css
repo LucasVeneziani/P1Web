@@ -449,13 +449,13 @@ footer .contatos{
     transition-duration: 1s;
 }
 #footer1{
-    background-image: url("Img/facebook.png");
+    background-image: url(Img/facebook.png);
 }
 #footer2{
-    background-image: url("Img/whatsapp.png");
+    background-image: url(Img/whatsapp.png);
 }
 #footer3{
-    background-image: url("Img/instagram.png");
+    background-image: url(Img/instagram.png);
 }
 footer .icones a{
     width: 50px;
