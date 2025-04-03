@@ -487,6 +487,7 @@ footer .icones a img{
         "DCard3 DCard4"
         "DCard5 DCard6";
     }
+
     main{
         height: 2300px;
     }
@@ -507,7 +508,7 @@ footer .icones a img{
     }
     
 }
-
+/* media 600*/ 
 @media (max-width: 600px) {
 
     nav{
