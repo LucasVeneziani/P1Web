@@ -204,7 +204,7 @@ grid-template-columns: 1fr 1fr;
     background-position: center;
 }
 .cardsEsquerda1{
-    background-image: url("../Img/1.jpg");
+    background-image: url(Img/1.jpg);
 }
 .cardsEsquerda2{
     background-image: url(Img/2.jpeg);

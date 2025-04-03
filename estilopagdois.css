@@ -169,13 +169,13 @@ nav .navicones{
     transition-duration: 1s;
 }
 #nav1{
-    background-image: url("Img/facebook.png");
+    background-image: url(Img/facebook.png);
 }
 #nav2{
-    background-image: url("Img/whatsapp.png");
+    background-image: url(Img/whatsapp.png);
 }
 #nav3{
-    background-image: url("Img/instagram.png");
+    background-image: url(Img/instagram.png);
 }
 nav .navicones a{
     width: 50px;
